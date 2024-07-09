@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document wali chai</title>
+</head>
+<body style="background-color: #212121; color: aliceblue;" >
+    <ul class="languagelist">
+        <li>javascript</li>
+    </ul>
+</body>
+<script>
+    // function addlanguage(langname){
+    //    const lan= document.createElement("li")
+    //    lan.innerHTML=`${langname}`
+    //    document.querySelector('.languagelist').appendChild(lan)
+       
+    // }
+
+    //addlanguage("java")
+    
+
+    function addoptimize(langname){
+        const lan=document.createElement("li")
+        lan.appendChild(document.createTextNode(langname))
+        document.querySelector('.languagelist').appendChild(lan)
+    }
+    addoptimize('hello')
+</script>
+</html>
